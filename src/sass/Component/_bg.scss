@@ -1,0 +1,13 @@
+.content__bg{
+    position: relative;
+    & .bg_heading{
+        font-size:8rem;
+        font-family: 'Lobster', cursive;
+        background-image: url(../img/view-1.jpg);
+
+        // background-image: linear-gradient(to right bottom, rgb(199, 235, 143), rgb(163, 255, 14));
+        background-clip: text;
+        color:transparent;
+
+    }
+}

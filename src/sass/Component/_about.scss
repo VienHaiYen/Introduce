@@ -1,0 +1,85 @@
+.about{
+    background-image: url(../img/view-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top:5rem;
+    .row{
+        max-width:114rem;
+        background-color: rgba(255, 255, 255, 0.507);
+    }
+    .heading-primary{
+        color: #fff;
+    }
+    &__picture{
+        padding: 0;
+        position: relative;
+        shape-outside: circle();
+        -webkit-shape-outside: circle();
+        @include respond(tab-port){
+            padding:5rem;
+        }
+        .cover-picture{
+            width:100%;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            overflow: hidden;
+            img{
+                width:120%;
+                transform: translate(-30px,-70px);
+                &:hover{
+                    transition: all 0.5s;
+                    filter: brightness(90%)  blur(2px);
+                    transform: translate(-30px,-46px);
+                }
+            }
+        }
+        .avaName{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%, -50%);
+            font-size:4rem;
+            letter-spacing:4px;
+            color:#fff;
+            font-family: "Sarina", sans-serif;
+
+        }
+    }
+    &-icon{
+        width:70%;
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1rem;
+        font-size:2rem;
+        color: rgb(90, 88, 88);
+        &Item{
+            display: inline-block;
+            transition: all 0.4s;
+            &:hover{
+                color: #000;
+            }
+
+        }
+        a.tel{
+            color: #000;
+            font-size:1.6rem;
+            // padding:1rem;
+            &:hover{
+                // color: red;
+                transform:skewY(3deg);
+                border: 1px solid #333;
+            }
+        }
+    }
+    .about__script {
+        display:flex;
+        padding:2.5rem 2rem;
+
+        @include respond(phone){
+            padding: 1rem 2rem;
+        }
+    }
+}

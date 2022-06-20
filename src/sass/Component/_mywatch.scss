@@ -1,0 +1,21 @@
+.myWatch {
+    display: flex;
+    // height: 100px;
+    padding:2rem;
+    justify-content: right;
+    align-items: center;
+    font-size: 2rem;
+    color:#000;
+    font-family: 'Righteous', cursive;
+}
+
+.box {
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color:#fff;
+}

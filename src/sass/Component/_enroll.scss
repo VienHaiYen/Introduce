@@ -1,0 +1,30 @@
+.enroll{
+    max-width:120rem;
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 5rem;
+    background-color: orange;
+    background-size: cover;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-image: url(../img/view-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    &-cover{
+        padding:8rem 8rem;
+
+        background-color:#fff;
+        clip-path: ellipse(66% 59% at 17% 54%);
+    }
+    @include respond(tab-port){
+        padding:4rem;
+        width:80%;
+    }
+    @include respond(phone){
+        padding:4rem;
+        width:100%;
+    }
+    .heading-secondary{
+        display: inline-block;
+    }
+}

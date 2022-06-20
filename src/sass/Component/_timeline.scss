@@ -1,0 +1,53 @@
+.timeline{
+    &__main{
+        width:100%;
+        left:0;
+        content: "";
+        border-bottom: 3px solid red;
+        margin: 5rem 0;
+        position: relative;
+    }
+    .timeline__ele{
+        &-top{
+            top:0;
+            transform: translateY(-100%);
+            justify-content: flex-end;
+        }
+        &-bottom{
+            top:0;
+            justify-content: flex-start;
+        }
+        position:absolute;
+        font-size: 1.2rem;
+        height: 50px;
+        width:100px;
+        display: flex;
+        flex-direction: column;
+        padding:5px;
+        transition: all 0.2s;
+        &:hover{
+            font-weight: bold;
+            color: blue;
+        }
+    }
+    .ele{
+        &--1{
+            left:0%;
+        }
+        &--2{
+            left:20%;
+        }
+        &--3{
+            left:40%;
+        }
+        &--4{
+            left:60%;
+        }
+        &--5{
+            left:80%;
+        }
+    }
+    .active{
+        font-weight: bold;
+    }
+}
