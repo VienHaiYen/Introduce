@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "./static/css/main.bd44ee40.css",
+    "main.js": "./static/js/main.22cde857.js",
+    "static/js/787.20416dff.chunk.js": "./static/js/787.20416dff.chunk.js",
+    "static/media/pj-1.png": "./static/media/pj-1.356696a74242550c6014.png",
+    "static/media/pj-3.png": "./static/media/pj-3.21a76c0bfeb39b70a8d5.png",
+    "static/media/pj-2.png": "./static/media/pj-2.4389c48c178ba2e14eca.png",
+    "static/media/pj-4.png": "./static/media/pj-4.312f966cb5552e848b7a.png",
+    "static/media/pj-5.png": "./static/media/pj-5.450195cce1baf966df6a.png",
+    "static/media/avatar-1.jpg": "./static/media/avatar-1.5048f415d0cc55563a54.jpg",
+    "static/media/bg-1.jpg": "./static/media/bg-1.2db119825b8b986919a4.jpg",
+    "static/media/view-1.jpg": "./static/media/view-1.75cc34ee8dc230c28448.jpg",
+    "static/media/themify.svg?-fvbane": "./static/media/themify.c4292f34297f1004471a.svg",
+    "static/media/skill-4.png": "./static/media/skill-4.81ed438b18e24116794d.png",
+    "static/media/skill-5.png": "./static/media/skill-5.9431343c453e999f63a7.png",
+    "static/media/sbg-2.jpg": "./static/media/sbg-2.abba22dc6df6a4d96c83.jpg",
+    "static/media/sbg-5.jpg": "./static/media/sbg-5.c39e2082b09199de81e5.jpg",
+    "static/media/sbg-1.jpg": "./static/media/sbg-1.5d6926efe0164f57feff.jpg",
+    "static/media/sbg-6.jpg": "./static/media/sbg-6.47a79e9b4a74516e3806.jpg",
+    "static/media/themify.eot": "./static/media/themify.9bad94440d49256265a5.eot",
+    "static/media/themify.ttf?-fvbane": "./static/media/themify.eda8b94308c6f538f04a.ttf",
+    "static/media/sbg-4.jpg": "./static/media/sbg-4.e8a080ce1fa5260055b7.jpg",
+    "static/media/themify.woff?-fvbane": "./static/media/themify.29b39089170885ae2967.woff",
+    "static/media/sbg-3.jpg": "./static/media/sbg-3.a8dc6075f5ff5d34ec68.jpg",
+    "static/media/skill-1.png": "./static/media/skill-1.323dab0ccafeb98fae45.png",
+    "static/media/skill-3.png": "./static/media/skill-3.5648ae0aeb0182cbd857.png",
+    "static/media/skill-2.png": "./static/media/skill-2.1a57e67ac1fd2ea84d64.png",
+    "static/media/skill-6.png": "./static/media/skill-6.6747d5c68a381e29fc69.png",
+    "index.html": "./index.html",
+    "main.bd44ee40.css.map": "./static/css/main.bd44ee40.css.map",
+    "main.22cde857.js.map": "./static/js/main.22cde857.js.map",
+    "787.20416dff.chunk.js.map": "./static/js/787.20416dff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd44ee40.css",
+    "static/js/main.22cde857.js"
+  ]
+}
