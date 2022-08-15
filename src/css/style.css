@@ -553,7 +553,7 @@ img {
 .content__bg {
   width: 100%;
   height: 90vh;
-  background-image: url(../img/bg-2.jpg);
+  background-image: url(../img/bg-1.jpg);
   background-size: cover;
   background-position: center;
   clip-path: ellipse(66% 59% at 49% 37%); }
@@ -701,6 +701,11 @@ img {
   .enroll .heading-secondary {
     display: inline-block; }
 
+.error-text {
+  color: red;
+  font-size: 1.5rem;
+  padding: 1rem; }
+
 .btn {
   display: inline-block;
   color: rgba(81, 80, 80, 0.719);
@@ -743,11 +748,11 @@ img {
   padding: 20px 30px;
   font-size: 18px;
   font-family: "Bebas Neue", cursive;
-  background: linear-gradient(45deg, transparent 5%, #73d7ebd8 5%);
-  border: 0;
+  background: linear-gradient(45deg, transparent 5%, #ccc 5%);
+  border-top: 1px solid #000;
   color: #000;
   letter-spacing: 3px;
-  box-shadow: 6px 0px 0px #faf20d;
+  box-shadow: 6px 0px 0px #000;
   outline: transparent;
   position: absolute;
   top: 55%;
@@ -769,7 +774,7 @@ img {
   right: 0;
   bottom: 0;
   background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
-  text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+  text-shadow: -3px -3px 0px #000, 3px 3px 0px #00e6f6;
   clip-path: var(--slice-0); }
 
 .btn-special:hover::after {

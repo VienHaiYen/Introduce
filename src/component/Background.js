@@ -5,7 +5,7 @@ function Background() {
       <div className="bg_heading"></div>
       {/* <MyWatch /> */}
       <AnimationText />
-      <a className="btn-special" href="../cv/CV.pdf" download="cv.pdf">Download</a>
+      <a className="btn-special" href={require("../cv/CV.pdf")} download="[CV]VienHaiYen">Download CV</a>
     </div>
   );
 }
