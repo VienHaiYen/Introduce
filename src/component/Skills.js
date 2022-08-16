@@ -21,8 +21,8 @@ const skills = [
         img1:skill_1,
         img2:sbg_1,
         name:'HTML',
-        color1: '#3CB371',
-        color2: '#2791E3',
+        color1: 'red',
+        color2: '#000',
         percentage1: 80,
         percentage2: 70,
     },
@@ -31,8 +31,8 @@ const skills = [
         img1:skill_2,
         img2:sbg_2,
         name:'CSS',
-        color1: '#CE757B',
-        color2: '#A2B9ED',
+        color1: '#4731D4',
+        color2: '#EE5454',
         percentage1: 85,
         percentage2: 75,
     },
@@ -41,8 +41,8 @@ const skills = [
         img1:skill_3,
         img2:sbg_3,
         name:'Javascript',
-        color1: '#F54768',
-        color2: '#64C4C3',
+        color1: '#273773',
+        color2: '#FA925B',
         percentage1: 70,
         percentage2: 68,
     },
@@ -51,8 +51,8 @@ const skills = [
         img1:skill_4,
         img2:sbg_4,
         name:'ReactJS',
-        color1: '#FFA197',
-        color2: '#C3E6AE',
+        color1: '#285E2C',
+        color2: '#E45137',
         percentage1: 80,
         percentage2: 70,
     },
@@ -63,8 +63,8 @@ const skills = [
         name:'Python',
         color1: '#2EB1A1',
         color2: '#C2508B',
-        percentage1: 80,
-        percentage2: 70,
+        percentage1: 50,
+        percentage2: 30,
 
     },
     {
@@ -83,7 +83,7 @@ const skills = [
 function Skills(){
     return (
         <div className="skills">
-            <div className="heading-primary">My skill</div>
+            <div className="heading-primary">My skills</div>
           <div className="row">
             {skills.map((skill)=>(
                 <SkillItem key={skill.id}

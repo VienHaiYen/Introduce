@@ -29,6 +29,9 @@
                     filter: brightness(70%);
                 }
             }
+            @include respond(phone){
+                padding:1rem 3rem;
+            }
         }
     }
 }

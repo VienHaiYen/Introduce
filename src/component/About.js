@@ -32,16 +32,15 @@ function About() {
                     <li className="about-iconItem"><a target="_blank" href="vhyyen2301.work@gmail.com"><i className="ti-email"></i></a></li>
                     <li className="about-iconItem"><a target="_blank" href="https://github.com/VienHaiYen"><i className="ti-github"></i></a></li>
                     <li className="about-iconItem"><a target="_blank" href="https://www.linkedin.com/in/h%E1%BA%A3i-y%E1%BA%BFn-vi%C3%AAn-930a08229/"><i className="ti-linkedin"></i></a></li>
-                    <li className="about-iconItem"><a className="tel" title="0792905933" href="tel:0792905933">Call me now!</a></li>
+                    <li className="about-iconItem"><a className="tel" title="0792905933" href="tel:0792905933">📞Call me now!</a></li>
                 </ul>
           </div>
           <div className="col c-12 m-12 l-12">
-            <Timeline />
+            {/* <Timeline /> */}
           </div>
         </div>
       </div>
       <div className="about__detail">
-        
       </div>
     </div>
   );

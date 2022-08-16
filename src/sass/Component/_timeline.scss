@@ -3,7 +3,7 @@
         width:100%;
         left:0;
         content: "";
-        border-bottom: 3px solid red;
+        border-bottom: 3px solid #25527A;
         margin: 5rem 0;
         position: relative;
     }
@@ -27,7 +27,7 @@
         transition: all 0.2s;
         &:hover{
             font-weight: bold;
-            color: blue;
+            color: #0081D2;
         }
     }
     .ele{

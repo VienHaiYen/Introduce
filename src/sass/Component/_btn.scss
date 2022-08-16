@@ -48,24 +48,24 @@
 }
 
 .btn-special {
-    padding:20px 30px;
-//   width: 220px;
-//   height: 56px;
+  padding: 20px 30px;
+  //   width: 220px;
+  //   height: 56px;
   font-size: 18px;
   font-family: "Bebas Neue", cursive;
   background: linear-gradient(45deg, transparent 5%, #73d7ebd8 5%);
   border: 0;
   color: #000;
   letter-spacing: 3px;
-//   line-height: 88px;
+  //   line-height: 88px;
   box-shadow: 6px 0px 0px #faf20d;
   outline: transparent;
-//   display: flex;
+  //   display: flex;
 
   position: absolute;
   top: 55%;
-  left:50%;
-  transform: translateX(-50%) ;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .btn-special::after {
@@ -143,5 +143,54 @@
   100% {
     clip-path: var(--slice-1);
     transform: translate(0);
+  }
+}
+
+//btn-special-2
+.btn-special-2 {
+  /* CSS */
+  align-items: center;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Codec cold", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  height: 54px;
+  justify-content: center;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  padding:0.3rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translateX(-50%);
+  &:active {
+    outline: 0;
+  }
+  &:hover {
+    outline: 0;
+  }
+  & span {
+    transition: all 200ms;
+  }
+  
+  &:hover span {
+    transform: scale(0.9);
+    opacity: 0.75;
+  }
+  @include respond(phone){
+    font-size: 1.5rem;
   }
 }

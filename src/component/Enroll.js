@@ -4,7 +4,7 @@ function Enroll() {
   return (
     <>
       <div className="heading-primary center-align">Contact me</div>
-      <div className="enroll">
+      <div className="enroll" style={{marginBottom:'5rem'}}>
         <div className="enroll-cover">
           <div className="heading-secondary">ENROLL NOW</div>
           <div className="enroll-part">

@@ -1,11 +1,10 @@
 .content__bg{
     position: relative;
-    & .bg_heading{
-        font-size:8rem;
-        font-family: 'Lobster', cursive;
-        background-image: url(../img/view-1.jpg);
-        background-clip: text;
-        color:transparent;
-
+    font-size:8rem;
+    font-family:"Mr Dafoe", sans-serif;
+    color:#000;
+    text-shadow: -1px -1px 0px blue,3px 3px 0px blue,6px 6px 0px blue 900;
+    @include respond(phone){
+        clip-path:none;
     }
 }

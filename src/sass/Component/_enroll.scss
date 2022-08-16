@@ -1,5 +1,5 @@
-.enroll{
-    max-width:120rem;
+.enroll {
+    max-width: 120rem;
     margin: 0 auto;
     width: 60%;
     border-radius: 5rem;
@@ -10,26 +10,33 @@
     background-image: url(../img/view-1.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    &-cover{
-        padding:8rem 8rem;
-
-        background-color:#fff;
-        clip-path: ellipse(66% 59% at 17% 54%);
+    &-cover {
+      padding: 8rem 8rem;
+  
+      background-color: #fff;
+      clip-path: ellipse(66% 59% at 17% 54%);
+      transition: all 0.5s;
+      @include respond(phone) {
+        background-color: rgba(255, 255, 255, 0.708);
+        clip-path: none;
+        border-radius: 30px;
+      }
     }
-    @include respond(tab-port){
-        padding:4rem;
-        width:80%;
+    @include respond(tab-port) {
+      padding: 4rem;
+      width: 80%;
     }
-    @include respond(phone){
-        padding:4rem;
-        width:100%;
+    @include respond(phone) {
+      padding: 4rem;
+      width: 100%;
     }
-    .heading-secondary{
-        display: inline-block;
+    .heading-secondary {
+      display: inline-block;
     }
-}
-.error-text{
-    color:red;
-    font-size:1.5rem;
-    padding:1rem;
-}
+  }
+  .error-text {
+    color: red;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  

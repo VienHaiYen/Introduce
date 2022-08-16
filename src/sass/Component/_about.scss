@@ -18,7 +18,11 @@
         shape-outside: circle();
         -webkit-shape-outside: circle();
         @include respond(tab-port){
-            padding:5rem;
+            display:none;
+        }
+        @include respond(phone){
+            display: block;
+            padding:1rem 10rem;
         }
         .cover-picture{
             width:100%;
@@ -58,9 +62,11 @@
         &Item{
             display: inline-block;
             transition: all 0.4s;
+            color:red;
             &:hover{
                 color: #000;
             }
+            a {color:#25527A;}
 
         }
         a.tel{
@@ -77,9 +83,12 @@
     .about__script {
         display:flex;
         padding:2.5rem 2rem;
-
+        // justify-content:center;
+        @include respond(tab-port){
+            margin: 0 auto;
+        }
         @include respond(phone){
-            padding: 1rem 2rem;
+            font-size:1.5rem;
         }
     }
 }
